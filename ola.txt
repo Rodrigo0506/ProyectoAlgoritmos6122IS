@@ -1,39 +1,60 @@
-Codigos Alumno 1
-
-Codigos Alumno 2 
-
-Codigos Alumno 3
-Algoritmo calculadora
-	
-	//declarar variables 
-	definir n1, n2, opciones,resultado Como Real
-	
-
-	escribir "ingreses un numero"
-	leer n1
-	escribir "ingrese un numero"
-	leer n2
-	
-	escribir "ingrese lo que desea obtener"
-	escribir "1=sumar"
-	escribir "2=resta"
-	escribir "3=multiplicacion"
-	escribir "4=division"
-	leer opciones
-	Segun opciones Hacer
-		1:
-			resultado=n1+n2
-			escribir "la suma es" ,resultado
-		2:
-			resultado=n1-n2
-			escribir "la resta es",resultado
-		3:
-			resultado=n1+n2
-			escribir "la multiplicacion es",resultado
-		4:
-			resultado=n1/n2
-			escribir "la multiplicacion es ", resultado
-			
-		De Otro Modo:
-			escribir "SYNTAXIS ERROR"
-	Fin Segun
+Algoritmo algoritmo_colaborativo
+	Definir Num Como Entero;
+	Escribir ("elije que hacer:");
+	Escribir ("opcion 1: Serie de Fibonaci") 
+	Escribir ("opcion 2: Piramide") 
+	Escribir ("opcion 3: Calculadora") 
+	Leer Num;
+	si Num=1 Entonces
+		Definir N Como Real;
+		Escribir ("Ingresa el numero:");
+		leer N;
+		f<-0;
+		nor<-0;
+		na<-1
+		Mientras f<=N Hacer
+			escribir "                   ", f
+			f=nor+na
+			na=nor
+			nor=f
+		Fin Mientras 
+	FinSi
+	si Num=2 Entonces
+		
+	FinSi
+	si Num=3 Entonces
+		
+		//declarar variables 
+		definir n1, n2, opciones,resultado Como Real
+		
+		
+		escribir "ingreses un numero"
+		leer n1
+		escribir "ingrese un numero"
+		leer n2
+		
+		escribir "ingrese lo que desea obtener"
+		escribir "1=sumar"
+		escribir "2=resta"
+		escribir "3=multiplicacion"
+		escribir "4=division"
+		leer opciones
+		Segun opciones Hacer
+			1:
+				resultado=n1+n2
+				escribir "la suma es" ,resultado
+			2:
+				resultado=n1-n2
+				escribir "la resta es",resultado
+			3:
+				resultado=n1+n2
+				escribir "la multiplicacion es",resultado
+			4:
+				resultado=n1/n2
+				escribir "la multiplicacion es ", resultado
+				
+			De Otro Modo:
+				escribir "SYNTAXIS ERROR"
+		Fin Segun
+	FinSi
+FinAlgoritmo
