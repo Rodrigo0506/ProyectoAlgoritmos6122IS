@@ -20,9 +20,39 @@ Algoritmo algoritmo_colaborativo
 		Fin Mientras 
 	FinSi
 	si Num=2 Entonces
+		Definir n,i,j,aux Como Entero;
+		
+		escribir sin saltar "ingrese el valor de n:"; Leer n;
+		
+		Para i<-1 hasta n con paso 1 Hacer
+			para j<-1 hasta n-i con paso 1 hacer
+				escribir sin saltar "  ";
+			FinPara
+			
+			aux<-i;
+			para j<-1 hasta i con paso 1 Hacer
+				escribir sin saltar aux, " ";
+				aux<-aux+1;
+			FinPara
+			
+			aux<-aux-2;
+			si i>=2 Entonces
+				para j<-1 hasta i-1 con paso 1 Hacer
+					escribir sin saltar aux," ";
+					aux<-aux-1;
+				FinPara
+			FinSi
+			
+			
+			escribir "";
+			
+			
+		FinPara
+		
 		
 	FinSi
 	si Num=3 Entonces
+		
 		
 		//declarar variables 
 		definir n1, n2, opciones,resultado Como Real
