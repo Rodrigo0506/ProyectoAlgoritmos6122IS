@@ -30,7 +30,7 @@ Algoritmo algoritmo_colaborativo
 		
 		escribir "ingreses un numero"
 		leer n1
-		escribir "ingrese un numero"
+		escribir "ingrese el segudno numero"
 		leer n2
 		
 		escribir "ingrese lo que desea obtener"
@@ -42,13 +42,13 @@ Algoritmo algoritmo_colaborativo
 		Segun opciones Hacer
 			1:
 				resultado=n1+n2
-				escribir "la suma es" ,resultado
+				escribir "la suma es " ,resultado
 			2:
 				resultado=n1-n2
-				escribir "la resta es",resultado
+				escribir "la resta es ",resultado
 			3:
-				resultado=n1+n2
-				escribir "la multiplicacion es",resultado
+				resultado=n1*n2
+				escribir "la multiplicacion es ",resultado
 			4:
 				resultado=n1/n2
 				escribir "la multiplicacion es ", resultado
