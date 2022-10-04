@@ -58,9 +58,9 @@ Algoritmo algoritmo_colaborativo
 		definir n1, n2, opciones,resultado Como Real
 		
 		
-		escribir "ingreses un numero"
+		escribir "ingrese un numero"
 		leer n1
-		escribir "ingrese el segudno numero"
+		escribir "ingrese el segundo numero"
 		leer n2
 		
 		escribir "ingrese lo que desea obtener"
