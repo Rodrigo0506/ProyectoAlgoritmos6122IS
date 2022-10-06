@@ -1,9 +1,9 @@
 Algoritmo algoritmo_colaborativo
 	Definir Num Como Entero;
-	Escribir ("elije que hacer:");
-	Escribir ("opcion 1: Serie de Fibonaci") 
-	Escribir ("opcion 2: Piramide") 
-	Escribir ("opcion 3: Calculadora") 
+	Escribir ("Elije que hacer:");
+	Escribir ("Opcion 1: Serie de Fibonaci (Diego)") 
+	Escribir ("Opcion 2: Piramide (Rodolfo)") 
+	Escribir ("Opcion 3: Calculadora (Rodrigo)") 
 	Leer Num;
 	si Num=1 Entonces
 		Definir N Como Real;
@@ -58,31 +58,34 @@ Algoritmo algoritmo_colaborativo
 		definir n1, n2, opciones,resultado Como Real
 		
 		
-		escribir "ingrese un numero"
+		escribir "Ingrese el primer numero"
 		leer n1
-		escribir "ingrese el segundo numero"
-		leer n2
 		
-		escribir "ingrese lo que desea obtener"
-		escribir "1=sumar"
-		escribir "2=resta"
-		escribir "3=multiplicacion"
-		escribir "4=division"
+		
+		escribir "Ingrese lo que desea obtener"
+		escribir "1=Sumar"
+		escribir "2=Resta"
+		escribir "3=Multiplicacion"
+		escribir "4=Division"
+		Escribir  "5=Potencia"
 		leer opciones
+		escribir "Ingrese el segundo numero"
+		leer n2
 		Segun opciones Hacer
 			1:
 				resultado=n1+n2
-				escribir "la suma es " ,resultado
+				escribir "La suma de ",n1,"+",n2,"=",resultado
 			2:
 				resultado=n1-n2
-				escribir "la resta es ",resultado
+				escribir "La resta de ",n1,"-",n2,"=",resultado
 			3:
 				resultado=n1*n2
-				escribir "la multiplicacion es ",resultado
+				escribir "La multiplicon de ",n1,"*",n2,"=",resultado
 			4:
 				resultado=n1/n2
-				escribir "la multiplicacion es ", resultado
-				
+				escribir "La division de ",n1,"/",n2,"=",resultado
+			5: resultado=n1^n2
+				Escribir "La potencia de ", n1,"^",n2,"=",resultado
 			De Otro Modo:
 				escribir "SYNTAXIS ERROR"
 		Fin Segun
