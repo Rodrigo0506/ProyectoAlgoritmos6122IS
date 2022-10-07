@@ -72,6 +72,7 @@ Algoritmo algoritmo_colaborativo
 		escribir "Ingrese el segundo numero"
 		leer n2
 		Segun opciones Hacer
+
 			1:
 				resultado=n1+n2
 				escribir "La suma de ",n1,"+",n2,"=",resultado
@@ -80,12 +81,14 @@ Algoritmo algoritmo_colaborativo
 				escribir "La resta de ",n1,"-",n2,"=",resultado
 			3:
 				resultado=n1*n2
-				escribir "La multiplicon de ",n1,"*",n2,"=",resultado
+				escribir "La multiplicacion de ",n1,"*",n2,"=",resultado
 			4:
 				resultado=n1/n2
 				escribir "La division de ",n1,"/",n2,"=",resultado
-			5: resultado=n1^n2
+			5: 
+				resultado=n1^n2
 				Escribir "La potencia de ", n1,"^",n2,"=",resultado
+
 			De Otro Modo:
 				escribir "SYNTAXIS ERROR"
 		Fin Segun
